@@ -1,0 +1,40 @@
+@mixin flex($dir: row, $just-cont: center, $alg-it: center, $wrp: nowrap) {
+	display: flex;
+	flex-flow: $dir $wrp;
+	justify-content: $just-cont;
+	align-items: $alg-it;
+}
+
+@mixin box($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+@mixin shadow($col: #fff) {
+	text-shadow: 1px 1px 0px $col, -1px 1px 0px $col, 1px -1px 0px $col,
+		-1px -1px 0px $col;
+}
+
+@mixin gradient($start-color, $end-color, $orientation) {
+	background: $start-color;
+
+	@if $orientation == "vertical" {
+		background: -webkit-linear-gradient(top, $start-color, $end-color);
+		background: linear-gradient(to bottom, $start-color, $end-color);
+	} @else if $orientation == "horizontal" {
+		background: -webkit-linear-gradient(left, $start-color, $end-color);
+		background: linear-gradient(to right, $start-color, $end-color);
+	} @else {
+		background: -webkit-radial-gradient(
+			center,
+			ellipse cover,
+			$start-color,
+			$end-color
+		);
+		background: radial-gradient(
+			ellipse at center,
+			$start-color,
+			$end-color
+		);
+	}
+}

@@ -1,0 +1,175 @@
+// Vitest Snapshot v1
+
+exports[`Main App Component > doesn't reflect changes when clicked elsewhere 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div>
+      <img
+        alt="React logo"
+        class="react"
+        src="/src/assets/react.svg"
+      />
+    </div>
+    <h1>
+      <span>
+        [ ✨ ]
+      </span>
+       A Vite template App! 
+      <span>
+        [ ✨ ]
+      </span>
+    </h1>
+    <ul>
+      <li>
+        🚀 | React with Vite!
+      </li>
+      <li>
+        🎉 | Typescript support!
+      </li>
+      <li>
+        🧪 | Vitest for testing!
+      </li>
+      <li>
+        🥽 | Modular SCSS setup!
+      </li>
+      <li>
+        🦋 | ESLint-Prettier with husky and lint-staged!
+      </li>
+      <li>
+        🗺 | React-router-dom@v6 and React Icons!
+      </li>
+    </ul>
+    <div
+      class="card"
+    >
+      <button
+        type="button"
+      >
+        ⌚ | Click to brr- 
+        0
+      </button>
+      <div>
+        <p>
+          Edit 
+          <code>
+            src/App.tsx
+          </code>
+           and save to test HMR.
+        </p>
+        <p>
+          Style components with 
+          <code>
+            .scss
+          </code>
+           component files.
+        </p>
+      </div>
+    </div>
+    <p
+      class="read-the-docs"
+    >
+      <a
+        href="https://reactjs.org"
+      >
+        React Docs
+      </a>
+       |
+       
+      <a
+        href="https://vitejs.dev/guide/"
+      >
+        Vite Guide
+      </a>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Main App Component > rendering 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div>
+      <img
+        alt="React logo"
+        class="react"
+        src="/src/assets/react.svg"
+      />
+    </div>
+    <h1>
+      <span>
+        [ ✨ ]
+      </span>
+       A Vite template App! 
+      <span>
+        [ ✨ ]
+      </span>
+    </h1>
+    <ul>
+      <li>
+        🚀 | React with Vite!
+      </li>
+      <li>
+        🎉 | Typescript support!
+      </li>
+      <li>
+        🧪 | Vitest for testing!
+      </li>
+      <li>
+        🥽 | Modular SCSS setup!
+      </li>
+      <li>
+        🦋 | ESLint-Prettier with husky and lint-staged!
+      </li>
+      <li>
+        🗺 | React-router-dom@v6 and React Icons!
+      </li>
+    </ul>
+    <div
+      class="card"
+    >
+      <button
+        type="button"
+      >
+        ⌚ | Click to brr- 
+        0
+      </button>
+      <div>
+        <p>
+          Edit 
+          <code>
+            src/App.tsx
+          </code>
+           and save to test HMR.
+        </p>
+        <p>
+          Style components with 
+          <code>
+            .scss
+          </code>
+           component files.
+        </p>
+      </div>
+    </div>
+    <p
+      class="read-the-docs"
+    >
+      <a
+        href="https://reactjs.org"
+      >
+        React Docs
+      </a>
+       |
+       
+      <a
+        href="https://vitejs.dev/guide/"
+      >
+        Vite Guide
+      </a>
+    </p>
+  </div>
+</div>
+`;
