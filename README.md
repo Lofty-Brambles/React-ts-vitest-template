@@ -17,6 +17,6 @@ The community templates lacked a general structure, so I made one for my own use
 ## Installations
 
 - Method 1: Clone the repo and run `npm i`.
-- Method 2: Run the command `npx degit  [Project Name]` on your terminal.
+- Method 2: Run the command `npx degit Lofty-Brambles/React-ts-vitest-template#main [Project Name]` on your terminal.
 
 It should all work. Please do inform if there is an issue.
