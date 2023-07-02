@@ -1,6 +1,6 @@
 # [ ✨ ] A Vite template App! [ ✨ ]
 
-A boiler-plate setup for React-Vite, with TypeScript support!
+A boiler-plate setup for React-Vite, with TypeScript support! 
 The community templates lacked a general structure, so I made one for my own use!
 
 
